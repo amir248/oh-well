@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Корпусная мебель под заказ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Примеры корпусной мебели под заказ, проекты установленной корпусной мбели в домах.">
+  <link rel="stylesheet" href="/photos.css">
+  <link rel="canonical" href="https://sibiro.ru/photo" />
+  <!-- Разметка JSON-LD, созданная Мастером разметки структурированных данных Google. -->
+  <link rel="shortcut icon" href="image/icons/Sibiro--tab--logo.svg" type="image/svg">
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "name" : "Фотографии корпусной мебели под заказ",
+    "headline": "Смотреть фото. Корпусная мебель под заказ.",
+    "author" : {
+      "@type" : "Person",
+      "name" : "Мебель Sibiro",
+      "url": "https://sibiro.ru/"
+    },
+    "datePublished" : "2023-09-03",
+    "dateModified" : "2024-02-11",
+    "image" : "https://sibiro.ru/image/gallery/one_12.jpg",
+    "articleSection" : "PHOTO WITH INSTALLATION",
+    "articleBody" : "Фотографии готовых работ, изготовления корпусной мебели под заказ.",
+    "url" : "https://sibiro.ru/photo",
+    "publisher" : {
+      "@type" : "Organization",
+      "name" : "МЕБЕЛЬ Sibiro",
+      "logo": {
+          "@type": "ImageObject",
+          "url": "https://sibiro.ru/image/favicon.svg"
+        }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://sibiro.ru/photo"
+    }
+  }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-781PBSRKSM"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-781PBSRKSM');
+  </script>
+
+<!-- >>>>>> -->
+
+  <link rel="stylesheet" href="style/master.css" />
+  <link rel="stylesheet" href="style/responsive.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="корпусная мебель под заказ" />
+  <link
+    rel="shortcut icon"
+    href="image/icons/Sibiro--tab--logo.svg"
+    type="image/svg" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/intersectionObserver.css" />
+  <link rel="stylesheet" href="style/menu.css" />
+  <!-- <<<<<<<<<< -->
+  <style media="screen">
+    header{
+      top:0; /* I don't understand what it */
+    }
+  </style>
+</head>
+<body>
+<header w3-include-html='includeHTML/headerInclude.html'></header>
+
+
+  <main>
+    <!-- <h1>it's that mabe be gallery or not, but there likn here</h1> -->
+    <!--#include virtual="include.html"-->
+     <div w3-include-html="includeHTML/include.html"></div>
+    <p></p>
+  </main>
+  <button type="button" name="button" onClick="goToBack()">Вернуться на главную</button>
+<footer w3-include-html="includeHTML/footerInclude.html"></footer>
+</body>
+<script type="text/javascript" src='../script/onClickToPage.js'></script>
+
+<!-- <script type="text/javascript" src='photos.js'></script>
+<script type="text/javascript" src='newCreateAside.js'></script>
+<script type="text/javascript" src='script/ifDarkThemes.js'></script> -->
+
+<script>
+function includeHTML() {
+ var z, i, elmnt, file, xhttp;
+ /* Loop through a collection of all HTML elements: */
+ z = document.getElementsByTagName("*");
+ for (i = 0; i < z.length; i++) {
+   elmnt = z[i];
+   /*search for elements with a certain atrribute:*/
+   file = elmnt.getAttribute("w3-include-html");
+   if (file) {
+     /* Make an HTTP request using the attribute value as the file name: */
+     xhttp = new XMLHttpRequest();
+     xhttp.onreadystatechange = function() {
+       if (this.readyState == 4) {
+         if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+         if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+         /* Remove the attribute, and call this function once more: */
+         elmnt.removeAttribute("w3-include-html");
+         includeHTML();
+       }
+     }
+     xhttp.open("GET", file, true);
+     xhttp.send();
+     /* Exit the function: */
+     return;
+   }
+ }
+}
+includeHTML();
+</script>
+
+</html>

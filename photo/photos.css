@@ -1,0 +1,134 @@
+*{
+  margin:0;
+}
+body{
+  /* background: grey; */
+}
+main{
+  display:flex;
+  justify-content:center;
+  align-items:baseline;
+  flex-wrap: wrap;
+  width:100%;
+  /* max-width: 1300px; */
+}
+img{
+  width:100%;
+  /* max-width: 367px; */
+  max-width: 90px;
+}
+#boxOne,#boxTwo,#boxThree,#boxFour, #boxFive,#boxSix{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  width:100%;
+}
+/* #boxFour > img{
+  width:367px;
+  height:550px;
+  object-fit: fill;
+} */
+h1{
+  width:100%;
+  background: yellow;
+  max-width: 100%;
+  text-align: center;
+  text-shadow:1px 1px grey;
+  /* color:transparent; */
+}
+h2{
+  width:100%;
+  background: green;
+  max-width: 100%;
+  text-align: center;
+}
+h2:nth-child(2){
+  width:100%;
+  background: yellow;
+  max-width: 100%;
+  text-align: center;
+}
+#glav{
+  /* max-height: 100vh; */
+  /* height:700px; */
+  max-width:100%;
+}
+#ooK{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  width:100%;
+}
+.left{
+  text-align: center;
+  width:50%;
+  font-size:50px;
+}
+.left:hover{
+  color:green;
+}
+.right{
+  text-align: center;
+  width:50%;
+  font-size: 50px;
+}
+.right:hover{
+  color:violet;
+}
+hr{
+  width:100%;
+}
+article{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  /* max-width: 1500px; */
+  flex-wrap: wrap;
+}
+.photosThree{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  max-width: 900px;
+  flex-wrap: wrap;
+/* flex-direction: row; */
+}
+.photosThree img{
+  float:left;
+  margin-right:3%;
+  width:100%;
+  max-width: 300px;
+}
+
+.photosThree p{
+  margin-top:7px;
+  margin-left:3%;
+  width:calc(100% - 3%);
+  /* max-width:200px; */
+}
+.boxImg{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  max-width:367px;
+  height:200px;
+  margin:3%;
+  /* max-height: 200px; */
+  /* border:3px solid black; */
+}
+.boxImg > img{
+  display:block;
+  width: 100%;
+  max-width:367px;
+    height: 100%;
+    max-height: 200px;
+    object-fit:cover;
+}
+body > button{
+  margin:3%;
+  margin-left: 37%;
+}

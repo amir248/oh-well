@@ -1,0 +1,85 @@
+@font-face {
+  font-family: light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: normal;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+:root {
+  --middleWidth: 717px;
+  --maxWidth: 1530px;
+  --mainFontSize: 11px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1540px;
+  text-align: center;
+  font-family: normal;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: transparent;
+  transition: all 0.4s;
+  cursor: pointer;
+  border: 0.1px solid;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #f4ce14;
+}
+button:focus {
+  outline: none;
+}
+.button {
+  padding: 1.3rem 4rem !important;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+main {
+  max-width: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  margin-top: 28px;
+}
+main img {
+  max-width: 900px;
+  width: 100%;
+}
+main img {
+  width: 100%;
+  max-width: 300px;
+}
+main h1 {
+  text-transform: capitalize;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount--close-btn {
+  background-image: url(../image/icons/close.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 20px !important;
+  height: 28px !important;
+}

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: normal;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  font-family: normal;
+  background-color: #406950;
+  color: #fff;
+}
+.loader--area {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+span {
+  width: 10px;
+  height: 40px;
+  background-color: #f4ce14;
+}
+.first {
+  animation: loaderFirst 1s infinite ease-in-out;
+}
+.second {
+  animation: loaderFirst 1s 0.5s infinite ease-in-out;
+}
+.third {
+  animation: loaderFirst 1s infinite ease-in-out;
+}
+@keyframes loaderFirst {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 40px;
+  }
+  100% {
+    height: 10px;
+  }
+}
+.brand--logo {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

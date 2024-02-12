@@ -1,0 +1,239 @@
+@media screen and (max-width: 1200px) {
+  .detalSummary > ol {
+    margin-top: -200px;
+    padding-inline: 0;
+  }
+  .classMap {
+    flex-direction: column;
+  }
+  .form--div {
+    padding-inline: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .proc > img {
+    max-width: auto !important;
+    width: 100% !important;
+  }
+  .secondSection {
+    gap: 1rem;
+  }
+  .form--div {
+    gap: 1.4rem;
+  }
+  .form--div > div {
+    width: 440px;
+  }
+  .article {
+    gap: 0.3rem;
+  }
+  .article--content {
+    transform: translateX(0);
+    padding: 1rem;
+    transition: all 0.3s;
+  }
+  .article--content > a {
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .article--content:hover,
+  .article--content:hover > a {
+    background-color: #f4ce14;
+    color: #406950;
+  }
+}
+@media screen and (max-width: 991px) {
+  section:nth-child(10) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .map {
+    width: 554px;
+  }
+  .swiper-slide {
+    width: auto !important;
+  }
+  .swiper {
+    width: 90% !important;
+  }
+  .desktop--nav {
+    display: none !important;
+  }
+  .mobile--nav {
+    display: flex !important;
+  }
+  #menu {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  .line {
+    width: 45vw;
+    height: 60vh;
+  }
+  .images > .fivePhoto > .line > img {
+    /* height: 331px; */
+    width: 100%;
+    height: 96%;
+  }
+  .fivePhoto {
+    gap: 0;
+  }
+}
+@media screen and (max-width: 831px) {
+  .about--business {
+    padding: 3rem 5rem;
+  }
+}
+@media screen and (max-width: 704px) {
+  .line {
+    width: 200px;
+  }
+  .images > .fivePhoto > .line > img {
+    width: 100%;
+    height: 90%;
+  }
+  .line--dif {
+    width: 204px;
+  }
+  .portfolio--content {
+    padding: 3rem 3rem;
+    text-align: justify;
+  }
+  .welcome--msg {
+    padding: 7rem 4rem;
+  }
+  .welcome--msg > h1 {
+    line-height: 2rem !important;
+  }
+}
+@media screen and (max-width: 612px) {
+  .about--business {
+    padding: 3rem 3.4rem;
+    font-size: 12px;
+  }
+  .line {
+    width: 160px;
+    height: 160px;
+  }
+  .st {
+    width: 200px;
+  }
+  .st img {
+    width: 100%;
+  }
+  .st h3 {
+    font-size: 18px;
+  }
+  .st p {
+    font-size: 10px !important;
+  }
+  h1,
+  h2 {
+    font-size: 30px !important;
+    font-weight: 900 !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  * {
+    font-family: normal;
+  }
+  .proc p {
+    text-align: left;
+  }
+  body > main > section:nth-child(1) {
+    gap: 1rem;
+  }
+  .map {
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+  .classMap {
+    align-items: center;
+  }
+  .article--card {
+    width: 170px;
+    height: 170px;
+  }
+  .article--content {
+    text-align: center;
+    width: 100%;
+    padding: 0.3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .about--business {
+    padding: 3rem 1rem;
+  }
+  form {
+    width: -webkit-fill-available;
+  }
+  .block--slider {
+    height: 350px !important;
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 500px) {
+  .t-payform-row {
+    padding: 12px 12px !important;
+    width: 100% !important;
+  }
+  .classMap--content h2 {
+    font-size: 24px !important;
+  }
+  .classMap--content p {
+    font-size: 10px !important;
+  }
+  .map {
+    font-size: 340px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    padding: 1.3rem !important;
+    border: 0.1px solid;
+  }
+  body > main > section:nth-child(1) {
+    width: 90%;
+    overflow-y: hidden;
+  }
+  .accordion {
+    font-size: 12px !important;
+    padding: 28px 10px !important;
+  }
+  .secondSection {
+    width: 95% !important;
+  }
+  .form--div {
+    padding-inline: 10px;
+  }
+  .st {
+    width: 100px;
+    height: 130px;
+    margin: 2px !important;
+  }
+  .st img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  .st h3 {
+    font-size: 8px !important;
+    padding-block: 0;
+  }
+  .st a,
+  .st p {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button {
+    font-size: 10px !important;
+  }
+  .classMap {
+    margin-top: 50px;
+  }
+  .line--dif {
+  }
+}
