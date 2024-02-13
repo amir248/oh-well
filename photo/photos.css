@@ -132,3 +132,7 @@ body > button{
   margin:3%;
   margin-left: 37%;
 }
+main > ul > a{
+  display:inline-block;
+  margin:1%;
+}
